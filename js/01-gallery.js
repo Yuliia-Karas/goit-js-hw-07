@@ -39,7 +39,7 @@ function modalOpenLightBox(event) {
 
   galleryList.addEventListener("keydown", escClick);
   function escClick(event) {
-    if (event === "escape") {
+    if (event.key === "Escape") {
       instance.close();
     }
   }
